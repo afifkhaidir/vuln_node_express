@@ -40,7 +40,7 @@ docker-compose up --build --detach
 * SQL Injection via search box. - `item%' union all select * from user; -- ` 
 * Cross Site Scripting via search box. - `<script>alert("hey guy");</script>`
 
-
+## Key Takeaways
 ### 3 Types of Security Testing
 
 1. SCA (SW Composition Analysis)
