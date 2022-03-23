@@ -24,4 +24,4 @@ jobs:
       - name: OWASP ZAP Baseline Scan
         uses: zaproxy/action-baseline@v0.6.1
         with:
-          target: 'https://www.zaproxy.org/'
+          target: 'http://localhost:3000/'
