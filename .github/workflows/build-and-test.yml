@@ -21,3 +21,5 @@ jobs:
         run: npm install
       - name: Run unit tests
         run: npm test
+      - name: OWASP ZAP Baseline Scan
+        uses: zaproxy/action-baseline@v0.6.1
